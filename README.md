@@ -1,9 +1,11 @@
+![status](https://img.shields.io/badge/status-in--progress-yellow)
+
 ## License
 This project is licensed under the MIT License.
 
 ## Credits
-This project is forked from [bchiang7](https://github.com/bchiang7/v4)
-Original work by [Brittany Chang].
+Originally designed and built by [Brittany Chang](https://github.com/bchiang7/v4)
+Modified, redesigned, and maintained by [Kapil Singhal](https://github.com/kappu777).
 
 ## 🛠 Installation & Set Up
 
@@ -42,5 +44,5 @@ Original work by [Brittany Chang].
 5. Deploy
 
    ```sh
-   npm run deploy -- --legacy-peer-deps
+   npm run deploy
    ```
