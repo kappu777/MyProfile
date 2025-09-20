@@ -8,7 +8,7 @@ tech:
   - Express
   - Firebase
   - Vue
-company: 'Upstatement'
+company: 'Publicis Sapient'
 showInProjects: true
 ---
 

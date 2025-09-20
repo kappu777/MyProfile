@@ -60,18 +60,17 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
+  const two = <h2 className="big-heading">Kapil Singhal.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I am a Software Engineer specializing in building scalable, cloud-native, and secure digital
+        platforms. At <a href="https://www.publicissapient.com/" target="_blank" rel="noreferrer">
+          Publicis Sapient
+        </a>, I focus on developing accessible, developer-centric
+        solutions—working with technologies like Python, Docker, Kubernetes, Terraform, and AWS
+        to streamline infrastructure, automate workflows, and enhance development environments.
       </p>
     </>
   );
@@ -85,7 +84,7 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

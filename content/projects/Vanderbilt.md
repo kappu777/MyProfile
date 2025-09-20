@@ -7,6 +7,6 @@ tech:
   - Twig
   - Puppy
   - JS
-company: 'Upstatement'
+company: 'Publicis Sapient'
 showInProjects: false
 ---

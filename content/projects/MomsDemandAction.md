@@ -9,6 +9,6 @@ tech:
   - NativeScript Vue
   - iOS
   - Android
-company: 'Upstatement'
+company: 'Publicis Sapient'
 showInProjects: false
 ---

@@ -1,13 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: "/v1",
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Kapil Singhal',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Kapil Singhal software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@kapil777',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,12 +17,11 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Kapil Singhal',
+        short_name: 'Kapil Singhal',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

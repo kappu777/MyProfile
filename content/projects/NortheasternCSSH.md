@@ -10,6 +10,6 @@ tech:
   - PHP
   - Algolia
   - JS
-company: 'Upstatement'
+company: 'Publicis Sapient'
 showInProjects: false
 ---

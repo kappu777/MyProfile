@@ -7,6 +7,6 @@ tech:
   - Storybook
   - React
   - TypeScript
-company: 'Upstatement'
+company: 'Publicis Sapient'
 showInProjects: false
 ---

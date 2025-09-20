@@ -1,13 +1,13 @@
 ---
 date: '2017-12-01'
-title: 'Apple Music Embeddable Web Player Widget'
+title: 'NEC Music Embeddable Web Player Widget'
 github: ''
 external: 'https://tools.applemusic.com/en-us'
 tech:
   - MusicKit.js
   - JS
   - SCSS
-company: 'Apple'
+company: 'NEC'
 showInProjects: true
 ---
 
