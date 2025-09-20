@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/kappu777/MyProfile')
+    fetch('https://api.github.com/repos/kappu777/portfolio')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/kappu777/MyProfile">
+        <a href="https://github.com/kappu777/portfolio">
           <div>Designed &amp; Built by Kapil Singhal</div>
 
           {githubInfo.stars && githubInfo.forks && (
