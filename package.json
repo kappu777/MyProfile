@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
-  "homepage": "https://kappu777.github.io/v1",
+  "homepage": "https://kappu777.github.io/MyProfile",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
