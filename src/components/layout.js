@@ -4,7 +4,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import { GlobalStyle, theme } from '@styles';
 
-const basePath = process.env.GATSBY_BASE_PATH || '/MyProfile/';
+const basePath = process.env.GATSBY_BASE_PATH || '/';
 
 
 const StyledContent = styled.div`

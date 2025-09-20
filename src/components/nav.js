@@ -9,6 +9,8 @@ import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
 import { IconLogo, IconHex } from '@components/icons';
 
+const basePath = process.env.GATSBY_BASE_PATH || '/';
+
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
   position: fixed;
@@ -184,7 +186,7 @@ const Nav = ({ isHome }) => {
   const Logo = (
     <div className="logo" tabIndex="-1">
       {isHome ? (
-        <a href="/" aria-label="home">
+        <a href=basePath aria-label="home">
           <div className="hex-container">
             <IconHex />
           </div>
@@ -193,7 +195,7 @@ const Nav = ({ isHome }) => {
           </div>
         </a>
       ) : (
-        <Link to="/" aria-label="home">
+        <Link to=basePath aria-label="home">
           <div className="hex-container">
             <IconHex />
           </div>
