@@ -186,7 +186,7 @@ const Nav = ({ isHome }) => {
   const Logo = (
     <div className="logo" tabIndex="-1">
       {isHome ? (
-        <a href=basePath aria-label="home">
+        <a href={basePath} aria-label="home">
           <div className="hex-container">
             <IconHex />
           </div>
@@ -195,7 +195,7 @@ const Nav = ({ isHome }) => {
           </div>
         </a>
       ) : (
-        <Link to=basePath aria-label="home">
+        <Link to={basePath} aria-label="home">
           <div className="hex-container">
             <IconHex />
           </div>
